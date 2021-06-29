@@ -100,10 +100,10 @@ LED1
 Text GLabel 1650 3450 0    50   Input ~ 0
 LED3
 $Comp
-L Connector:Conn_01x09_Female J4
+L Connector:Conn_01x09_Female J5
 U 1 1 6025E134
 P 3800 5150
-F 0 "J4" H 3828 5126 50  0000 L CNN
+F 0 "J5" H 3828 5126 50  0000 L CNN
 F 1 "front panel connector" H 3828 5035 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3800 5150 50  0001 C CNN
 F 3 "~" H 3800 5150 50  0001 C CNN
@@ -125,10 +125,10 @@ button3
 Text GLabel 3600 4750 0    50   Input ~ 0
 GND
 $Comp
-L Connector:Conn_01x04_Female J3
+L Connector:Conn_01x04_Female J6
 U 1 1 60261DCC
 P 3450 6400
-F 0 "J3" H 3478 6376 50  0000 L CNN
+F 0 "J6" H 3478 6376 50  0000 L CNN
 F 1 "power connector" H 3478 6285 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3450 6400 50  0001 C CNN
 F 3 "~" H 3450 6400 50  0001 C CNN
@@ -138,10 +138,10 @@ $EndComp
 Text GLabel 3600 4950 0    50   Input ~ 0
 VIDEO
 $Comp
-L Connector:Conn_01x02_Female J5
+L Connector:Conn_01x02_Female J8
 U 1 1 60681490
 P 5800 5900
-F 0 "J5" H 5828 5876 50  0000 L CNN
+F 0 "J8" H 5828 5876 50  0000 L CNN
 F 1 "Composite Video" H 5828 5785 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5800 5900 50  0001 C CNN
 F 3 "~" H 5800 5900 50  0001 C CNN
@@ -197,10 +197,10 @@ SC_LED
 Text GLabel 6850 3150 0    50   Input ~ 0
 24
 $Comp
-L Jumper:SolderJumper_2_Open JP4
+L Jumper:SolderJumper_2_Open JP6
 U 1 1 60C07218
 P 7000 3050
-F 0 "JP4" H 7000 3255 50  0000 C CNN
+F 0 "JP6" H 7000 3255 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7000 3164 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7000 3050 50  0001 C CNN
 F 3 "~" H 7000 3050 50  0001 C CNN
@@ -210,10 +210,10 @@ $EndComp
 Wire Wire Line
 	7150 3050 7900 3050
 $Comp
-L Jumper:SolderJumper_2_Open JP5
+L Jumper:SolderJumper_2_Open JP7
 U 1 1 60C08660
 P 7000 3150
-F 0 "JP5" H 7000 3355 50  0000 C CNN
+F 0 "JP7" H 7000 3355 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7000 3264 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7000 3150 50  0001 C CNN
 F 3 "~" H 7000 3150 50  0001 C CNN
@@ -223,10 +223,10 @@ $EndComp
 Wire Wire Line
 	7900 3150 7150 3150
 $Comp
-L Jumper:SolderJumper_2_Open JP6
+L Jumper:SolderJumper_2_Open JP5
 U 1 1 60C09276
 P 7000 3250
-F 0 "JP6" H 7000 3455 50  0000 C CNN
+F 0 "JP5" H 7000 3455 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7000 3364 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7000 3250 50  0001 C CNN
 F 3 "~" H 7000 3250 50  0001 C CNN
@@ -236,10 +236,10 @@ $EndComp
 Wire Wire Line
 	7150 3250 7900 3250
 $Comp
-L Jumper:SolderJumper_2_Open JP7
+L Jumper:SolderJumper_2_Open JP4
 U 1 1 60C09F44
 P 9650 2950
-F 0 "JP7" H 9650 3155 50  0000 C CNN
+F 0 "JP4" H 9650 3155 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9650 3064 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 2950 50  0001 C CNN
 F 3 "~" H 9650 2950 50  0001 C CNN
@@ -266,10 +266,10 @@ Text GLabel 1950 3250 0    50   Input ~ 0
 Text GLabel 1950 3150 0    50   Input ~ 0
 24
 $Comp
-L Connector:Conn_01x08_Female J6
+L Connector:Conn_01x08_Female J4
 U 1 1 60C20AA0
 P 6100 4400
-F 0 "J6" H 6128 4376 50  0000 L CNN
+F 0 "J4" H 6128 4376 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 6128 4285 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6100 4400 50  0001 C CNN
 F 3 "~" H 6100 4400 50  0001 C CNN
@@ -297,10 +297,10 @@ SC_A0
 Text GLabel 5200 3350 0    50   Input ~ 0
 23
 $Comp
-L Jumper:SolderJumper_2_Open JP2
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 60C235F4
 P 5350 3350
-F 0 "JP2" H 5350 3125 50  0000 C CNN
+F 0 "JP3" H 5350 3125 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 5350 3216 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5350 3350 50  0001 C CNN
 F 3 "~" H 5350 3350 50  0001 C CNN
@@ -310,10 +310,10 @@ $EndComp
 Text GLabel 5500 3550 2    50   Input ~ 0
 SC_RESET
 $Comp
-L Jumper:SolderJumper_2_Open JP3
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 60C23FF2
 P 5350 3550
-F 0 "JP3" H 5350 3325 50  0000 C CNN
+F 0 "JP2" H 5350 3325 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 5350 3416 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5350 3550 50  0001 C CNN
 F 3 "~" H 5350 3550 50  0001 C CNN
@@ -343,4 +343,107 @@ Text GLabel 3550 3250 2    50   Input ~ 0
 SC_SCK
 Text GLabel 3250 6600 0    50   Input ~ 0
 6V
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 60D031EC
+P 8250 5300
+F 0 "J7" H 8278 5276 50  0000 L CNN
+F 1 "i2c Expansion" H 8278 5185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8250 5300 50  0001 C CNN
+F 3 "~" H 8250 5300 50  0001 C CNN
+	1    8250 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5200 0    50   Input ~ 0
+SDA
+Text GLabel 8050 5500 0    50   Input ~ 0
+SCL
+Text GLabel 8050 5300 0    50   Input ~ 0
+3v3
+Text GLabel 8050 5400 0    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 60DB9748
+P 9800 5050
+F 0 "J3" H 9828 5026 50  0000 L CNN
+F 1 "i2c Expansion" H 9828 4935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9800 5050 50  0001 C CNN
+F 3 "~" H 9800 5050 50  0001 C CNN
+	1    9800 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 4950 0    50   Input ~ 0
+SDA
+Text GLabel 9600 5250 0    50   Input ~ 0
+SCL
+Text GLabel 9600 5050 0    50   Input ~ 0
+3v3
+Text GLabel 9600 5150 0    50   Input ~ 0
+GND
+$Comp
+L 74xx:74HC595 U1
+U 1 1 60DD3C0F
+P 5600 1700
+F 0 "U1" H 5600 2481 50  0000 C CNN
+F 1 "74HC595" H 5600 2390 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5600 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP8
+U 1 1 60DD5524
+P 5050 1300
+F 0 "JP8" H 4050 1400 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4400 1500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5050 1300 50  0001 C CNN
+F 3 "~" H 5050 1300 50  0001 C CNN
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP9
+U 1 1 60DDCD88
+P 5050 1500
+F 0 "JP9" H 4050 1600 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4400 1700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5050 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 1600 0    50   Input ~ 0
+5V
+Text GLabel 5600 1100 1    50   Input ~ 0
+5V
+Text GLabel 5200 1900 0    50   Input ~ 0
+GND
+Text GLabel 5600 2400 3    50   Input ~ 0
+GND
+$Comp
+L Jumper:SolderJumper_2_Open JP10
+U 1 1 60DDF744
+P 5050 1800
+F 0 "JP10" H 4050 1900 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4400 2000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2350 2    50   Input ~ 0
+shift_serial
+Wire Wire Line
+	3850 2350 3550 2350
+Wire Wire Line
+	3550 2350 3550 2450
+Connection ~ 3550 2450
+Text GLabel 4900 1300 0    50   Input ~ 0
+shift_serial
+Text GLabel 4900 1500 0    50   Input ~ 0
+shift_clock
+Text GLabel 1650 2150 0    50   Input ~ 0
+shift_clock
 $EndSCHEMATC
