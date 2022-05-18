@@ -7,6 +7,7 @@ This repository hosts a set of design documents for the TR-108 Picorder. A Picor
 
 - The pcb_design folder contains KiCad files of the proposed printed circuit board to replace the original perfboard prototype. These files can be used to produce and test PCBs.
 
+- The enclosure_design folder contains STLs (incomplete) and a .blend file containing the raw construction file for a complete enclosure, based closely on the DST Tricorder toy.
 
 ## What is not yet included:
 
