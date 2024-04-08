@@ -1,5 +1,5 @@
 #
-This repository hosts a set of design documents for the TR-108 Picorder. A Picorder is a Raspberry Pi based handheld device that records and displays sensor data for immediate analysis. The TR-109 is designed to use a Raspberry Pi Zero W, a set of custom designed PCBs, and a 3D printed enclosure to achieve this goal. This project, along with [PicorderOS](https://squaredwave.com/wiki/index.php?title=PicorderOS) attempts to be a single self contained solution for anyone wishing to produce their own Picorder.
+This repository hosts a set of design documents for the TR-108 Picorder. A Picorder is a Raspberry Pi based handheld device that records and displays sensor data for immediate analysis. The TR-108 is designed to use a Raspberry Pi Zero W, a set of custom designed PCBs, and a 3D printed enclosure to achieve this goal. This project, along with [PicorderOS](https://squaredwave.com/wiki/index.php?title=PicorderOS) attempts to be a single self contained solution for anyone wishing to build their own Picorder.
 
 ## What is included:
 
